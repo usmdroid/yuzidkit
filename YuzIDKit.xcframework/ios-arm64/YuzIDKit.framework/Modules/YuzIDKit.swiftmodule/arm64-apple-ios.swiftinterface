@@ -1,0 +1,51 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.4.2 effective-5.10 (swiftlang-6.4.2.1.9 clang-2100.4.1.1)
+// swift-module-flags: -target arm64-apple-ios15.5 -enable-objc-interop -enable-library-evolution -language-mode 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name YuzIDKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4.2
+import AVFoundation
+import Foundation
+import MLKitFaceDetection
+import MLKitVision
+import Swift
+import UIKit
+import Vision
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum YuzIDLanguage {
+  case uz
+  case uzCyrillic
+  case ru
+  case en
+  public init(code: Swift::String)
+  public static func == (a: YuzIDKit::YuzIDLanguage, b: YuzIDKit::YuzIDLanguage) -> Swift::Bool
+  public func hash(into hasher: inout Swift::Hasher)
+  public var hashValue: Swift::Int {
+    get
+  }
+}
+public enum YuzIDError : Swift::Error {
+  case alreadyRunning
+  case noViewController
+  case cameraUnavailable
+  public static func == (a: YuzIDKit::YuzIDError, b: YuzIDKit::YuzIDError) -> Swift::Bool
+  public func hash(into hasher: inout Swift::Hasher)
+  public var hashValue: Swift::Int {
+    get
+  }
+}
+public enum YuzIDResult {
+  case success(UIKit::UIImage)
+  case cancelled
+  case failure(YuzIDKit::YuzIDError)
+  public var base64JPEG: Swift::String? {
+    get
+  }
+}
+public enum YuzID {
+  public static func present(from presenter: UIKit::UIViewController? = nil, language: YuzIDKit::YuzIDLanguage = .uz, completion: @escaping (YuzIDKit::YuzIDResult) -> Swift::Void)
+}
+extension YuzIDKit::YuzIDLanguage : Swift::Equatable {}
+extension YuzIDKit::YuzIDLanguage : Swift::Hashable {}
+extension YuzIDKit::YuzIDError : Swift::Equatable {}
+extension YuzIDKit::YuzIDError : Swift::Hashable {}

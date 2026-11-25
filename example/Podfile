@@ -1,0 +1,17 @@
+# YuzIDKit example: shows how to integrate the prebuilt SDK.
+platform :ios, '15.5'
+
+target 'Example' do
+  # ML Kit is a static framework, so static linkage is required.
+  use_frameworks! :linkage => :static
+
+  pod 'YuzIDKit', :git => 'https://github.com/usmdroid/yuzidkit.git', :tag => '1.0.0'
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |t|
+    t.build_configurations.each do |c|
+      c.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.5'
+    end
+  end
+end

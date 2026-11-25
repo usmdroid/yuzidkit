@@ -1,0 +1,1255 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "YuzIDKit",
+    "printedName": "YuzIDKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "YuzIDKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "YuzIDKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "YuzIDKit"
+      },
+      {
+        "kind": "Import",
+        "name": "MLKitVision",
+        "printedName": "MLKitVision",
+        "declKind": "Import",
+        "moduleName": "YuzIDKit"
+      },
+      {
+        "kind": "Import",
+        "name": "MLKitFaceDetection",
+        "printedName": "MLKitFaceDetection",
+        "declKind": "Import",
+        "moduleName": "YuzIDKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YuzIDKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "YuzIDKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "YuzIDLanguage",
+        "printedName": "YuzIDLanguage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "uz",
+            "printedName": "uz",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YuzIDKit.YuzIDLanguage.Type) -> YuzIDKit.YuzIDLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YuzIDLanguage",
+                    "printedName": "YuzIDKit.YuzIDLanguage",
+                    "usr": "s:8YuzIDKit0A10IDLanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YuzIDKit.YuzIDLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YuzIDLanguage",
+                        "printedName": "YuzIDKit.YuzIDLanguage",
+                        "usr": "s:8YuzIDKit0A10IDLanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8YuzIDKit0A10IDLanguageO2uzyA2CmF",
+            "mangledName": "$s8YuzIDKit0A10IDLanguageO2uzyA2CmF",
+            "moduleName": "YuzIDKit"
+          },
+          {
+            "kind": "Var",
+            "name": "uzCyrillic",
+            "printedName": "uzCyrillic",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YuzIDKit.YuzIDLanguage.Type) -> YuzIDKit.YuzIDLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YuzIDLanguage",
+                    "printedName": "YuzIDKit.YuzIDLanguage",
+                    "usr": "s:8YuzIDKit0A10IDLanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YuzIDKit.YuzIDLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YuzIDLanguage",
+                        "printedName": "YuzIDKit.YuzIDLanguage",
+                        "usr": "s:8YuzIDKit0A10IDLanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8YuzIDKit0A10IDLanguageO10uzCyrillicyA2CmF",
+            "mangledName": "$s8YuzIDKit0A10IDLanguageO10uzCyrillicyA2CmF",
+            "moduleName": "YuzIDKit"
+          },
+          {
+            "kind": "Var",
+            "name": "ru",
+            "printedName": "ru",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YuzIDKit.YuzIDLanguage.Type) -> YuzIDKit.YuzIDLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YuzIDLanguage",
+                    "printedName": "YuzIDKit.YuzIDLanguage",
+                    "usr": "s:8YuzIDKit0A10IDLanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YuzIDKit.YuzIDLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YuzIDLanguage",
+                        "printedName": "YuzIDKit.YuzIDLanguage",
+                        "usr": "s:8YuzIDKit0A10IDLanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8YuzIDKit0A10IDLanguageO2ruyA2CmF",
+            "mangledName": "$s8YuzIDKit0A10IDLanguageO2ruyA2CmF",
+            "moduleName": "YuzIDKit"
+          },
+          {
+            "kind": "Var",
+            "name": "en",
+            "printedName": "en",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YuzIDKit.YuzIDLanguage.Type) -> YuzIDKit.YuzIDLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YuzIDLanguage",
+                    "printedName": "YuzIDKit.YuzIDLanguage",
+                    "usr": "s:8YuzIDKit0A10IDLanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YuzIDKit.YuzIDLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YuzIDLanguage",
+                        "printedName": "YuzIDKit.YuzIDLanguage",
+                        "usr": "s:8YuzIDKit0A10IDLanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8YuzIDKit0A10IDLanguageO2enyA2CmF",
+            "mangledName": "$s8YuzIDKit0A10IDLanguageO2enyA2CmF",
+            "moduleName": "YuzIDKit"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(code:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "YuzIDLanguage",
+                "printedName": "YuzIDKit.YuzIDLanguage",
+                "usr": "s:8YuzIDKit0A10IDLanguageO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8YuzIDKit0A10IDLanguageO4codeACSS_tcfc",
+            "mangledName": "$s8YuzIDKit0A10IDLanguageO4codeACSS_tcfc",
+            "moduleName": "YuzIDKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "YuzIDLanguage",
+                "printedName": "YuzIDKit.YuzIDLanguage",
+                "usr": "s:8YuzIDKit0A10IDLanguageO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "YuzIDLanguage",
+                "printedName": "YuzIDKit.YuzIDLanguage",
+                "usr": "s:8YuzIDKit0A10IDLanguageO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8YuzIDKit0A10IDLanguageO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8YuzIDKit0A10IDLanguageO2eeoiySbAC_ACtFZ",
+            "moduleName": "YuzIDKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8YuzIDKit0A10IDLanguageO9hashValueSivp",
+            "mangledName": "$s8YuzIDKit0A10IDLanguageO9hashValueSivp",
+            "moduleName": "YuzIDKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8YuzIDKit0A10IDLanguageO9hashValueSivg",
+                "mangledName": "$s8YuzIDKit0A10IDLanguageO9hashValueSivg",
+                "moduleName": "YuzIDKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8YuzIDKit0A10IDLanguageO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s8YuzIDKit0A10IDLanguageO4hash4intoys6HasherVz_tF",
+            "moduleName": "YuzIDKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8YuzIDKit0A10IDLanguageO",
+        "mangledName": "$s8YuzIDKit0A10IDLanguageO",
+        "moduleName": "YuzIDKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "YuzIDError",
+        "printedName": "YuzIDError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "alreadyRunning",
+            "printedName": "alreadyRunning",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YuzIDKit.YuzIDError.Type) -> YuzIDKit.YuzIDError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YuzIDError",
+                    "printedName": "YuzIDKit.YuzIDError",
+                    "usr": "s:8YuzIDKit0A7IDErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YuzIDKit.YuzIDError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YuzIDError",
+                        "printedName": "YuzIDKit.YuzIDError",
+                        "usr": "s:8YuzIDKit0A7IDErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8YuzIDKit0A7IDErrorO14alreadyRunningyA2CmF",
+            "mangledName": "$s8YuzIDKit0A7IDErrorO14alreadyRunningyA2CmF",
+            "moduleName": "YuzIDKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "noViewController",
+            "printedName": "noViewController",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YuzIDKit.YuzIDError.Type) -> YuzIDKit.YuzIDError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YuzIDError",
+                    "printedName": "YuzIDKit.YuzIDError",
+                    "usr": "s:8YuzIDKit0A7IDErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YuzIDKit.YuzIDError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YuzIDError",
+                        "printedName": "YuzIDKit.YuzIDError",
+                        "usr": "s:8YuzIDKit0A7IDErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8YuzIDKit0A7IDErrorO16noViewControlleryA2CmF",
+            "mangledName": "$s8YuzIDKit0A7IDErrorO16noViewControlleryA2CmF",
+            "moduleName": "YuzIDKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cameraUnavailable",
+            "printedName": "cameraUnavailable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YuzIDKit.YuzIDError.Type) -> YuzIDKit.YuzIDError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YuzIDError",
+                    "printedName": "YuzIDKit.YuzIDError",
+                    "usr": "s:8YuzIDKit0A7IDErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YuzIDKit.YuzIDError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YuzIDError",
+                        "printedName": "YuzIDKit.YuzIDError",
+                        "usr": "s:8YuzIDKit0A7IDErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8YuzIDKit0A7IDErrorO17cameraUnavailableyA2CmF",
+            "mangledName": "$s8YuzIDKit0A7IDErrorO17cameraUnavailableyA2CmF",
+            "moduleName": "YuzIDKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "YuzIDError",
+                "printedName": "YuzIDKit.YuzIDError",
+                "usr": "s:8YuzIDKit0A7IDErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "YuzIDError",
+                "printedName": "YuzIDKit.YuzIDError",
+                "usr": "s:8YuzIDKit0A7IDErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8YuzIDKit0A7IDErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8YuzIDKit0A7IDErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "YuzIDKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8YuzIDKit0A7IDErrorO9hashValueSivp",
+            "mangledName": "$s8YuzIDKit0A7IDErrorO9hashValueSivp",
+            "moduleName": "YuzIDKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8YuzIDKit0A7IDErrorO9hashValueSivg",
+                "mangledName": "$s8YuzIDKit0A7IDErrorO9hashValueSivg",
+                "moduleName": "YuzIDKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8YuzIDKit0A7IDErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s8YuzIDKit0A7IDErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "YuzIDKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8YuzIDKit0A7IDErrorO",
+        "mangledName": "$s8YuzIDKit0A7IDErrorO",
+        "moduleName": "YuzIDKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "YuzIDResult",
+        "printedName": "YuzIDResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YuzIDKit.YuzIDResult.Type) -> (UIKit.UIImage) -> YuzIDKit.YuzIDResult",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIImage) -> YuzIDKit.YuzIDResult",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YuzIDResult",
+                        "printedName": "YuzIDKit.YuzIDResult",
+                        "usr": "s:8YuzIDKit0A8IDResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YuzIDKit.YuzIDResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YuzIDResult",
+                        "printedName": "YuzIDKit.YuzIDResult",
+                        "usr": "s:8YuzIDKit0A8IDResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8YuzIDKit0A8IDResultO7successyACSo7UIImageCcACmF",
+            "mangledName": "$s8YuzIDKit0A8IDResultO7successyACSo7UIImageCcACmF",
+            "moduleName": "YuzIDKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cancelled",
+            "printedName": "cancelled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YuzIDKit.YuzIDResult.Type) -> YuzIDKit.YuzIDResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YuzIDResult",
+                    "printedName": "YuzIDKit.YuzIDResult",
+                    "usr": "s:8YuzIDKit0A8IDResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YuzIDKit.YuzIDResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YuzIDResult",
+                        "printedName": "YuzIDKit.YuzIDResult",
+                        "usr": "s:8YuzIDKit0A8IDResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8YuzIDKit0A8IDResultO9cancelledyA2CmF",
+            "mangledName": "$s8YuzIDKit0A8IDResultO9cancelledyA2CmF",
+            "moduleName": "YuzIDKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failure",
+            "printedName": "failure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YuzIDKit.YuzIDResult.Type) -> (YuzIDKit.YuzIDError) -> YuzIDKit.YuzIDResult",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(YuzIDKit.YuzIDError) -> YuzIDKit.YuzIDResult",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YuzIDResult",
+                        "printedName": "YuzIDKit.YuzIDResult",
+                        "usr": "s:8YuzIDKit0A8IDResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YuzIDError",
+                        "printedName": "YuzIDKit.YuzIDError",
+                        "usr": "s:8YuzIDKit0A7IDErrorO"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YuzIDKit.YuzIDResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YuzIDResult",
+                        "printedName": "YuzIDKit.YuzIDResult",
+                        "usr": "s:8YuzIDKit0A8IDResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8YuzIDKit0A8IDResultO7failureyAcA0A7IDErrorOcACmF",
+            "mangledName": "$s8YuzIDKit0A8IDResultO7failureyAcA0A7IDErrorOcACmF",
+            "moduleName": "YuzIDKit"
+          },
+          {
+            "kind": "Var",
+            "name": "base64JPEG",
+            "printedName": "base64JPEG",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8YuzIDKit0A8IDResultO10base64JPEGSSSgvp",
+            "mangledName": "$s8YuzIDKit0A8IDResultO10base64JPEGSSSgvp",
+            "moduleName": "YuzIDKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8YuzIDKit0A8IDResultO10base64JPEGSSSgvg",
+                "mangledName": "$s8YuzIDKit0A8IDResultO10base64JPEGSSSgvg",
+                "moduleName": "YuzIDKit",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8YuzIDKit0A8IDResultO",
+        "mangledName": "$s8YuzIDKit0A8IDResultO",
+        "moduleName": "YuzIDKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "YuzID",
+        "printedName": "YuzID",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "present",
+            "printedName": "present(from:language:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "YuzIDLanguage",
+                "printedName": "YuzIDKit.YuzIDLanguage",
+                "hasDefaultArg": true,
+                "usr": "s:8YuzIDKit0A10IDLanguageO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YuzIDKit.YuzIDResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YuzIDResult",
+                    "printedName": "YuzIDKit.YuzIDResult",
+                    "usr": "s:8YuzIDKit0A8IDResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8YuzIDKit0A2IDO7present4from8language10completionySo16UIViewControllerCSg_AA0A10IDLanguageOyAA0A8IDResultOctFZ",
+            "mangledName": "$s8YuzIDKit0A2IDO7present4from8language10completionySo16UIViewControllerCSg_AA0A10IDLanguageOyAA0A8IDResultOctFZ",
+            "moduleName": "YuzIDKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8YuzIDKit0A2IDO",
+        "mangledName": "$s8YuzIDKit0A2IDO",
+        "moduleName": "YuzIDKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 720,
+      "length": 18,
+      "value": "\"uz.yuzid.session\""
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1101,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1154,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1244,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1277,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1415,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1828,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1873,
+      "length": 2,
+      "value": "38"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1878,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1890,
+      "length": 2,
+      "value": "59"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1895,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1906,
+      "length": 3,
+      "value": "166"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1912,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1924,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1966,
+      "length": 6,
+      "value": "0.2745"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1981,
+      "length": 6,
+      "value": "0.4863"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1995,
+      "length": 6,
+      "value": "0.1412"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2010,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2053,
+      "length": 6,
+      "value": "0.9255"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2068,
+      "length": 6,
+      "value": "0.2353"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2082,
+      "length": 6,
+      "value": "0.1020"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2097,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 21753,
+      "length": 4,
+      "value": "0.30"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 21797,
+      "length": 4,
+      "value": "0.72"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21922,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21960,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21997,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 22037,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 22076,
+      "length": 4,
+      "value": "0.30"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 22221,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22260,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 22397,
+      "length": 5,
+      "value": "0.015"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 22517,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 22636,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/Translation.swift",
+      "kind": "Dictionary",
+      "offset": 71,
+      "length": 996,
+      "value": "[(\"w1\", \"Internetga ulanmagansiz\"), (\"w2\", \"Serverga bog'lanib bo'lmadi\"), (\"w3\", \"Tarmoqqa ulanib bo'lmadi\"), (\"w4\", \"Tekshirilmoqda\nIltimos kuting...\"), (\"w5\", \"Serverda xatolik yuz berdi\"), (\"w6\", \"Yuzlar 1 tadan ko'p\"), (\"w7\", \"Kameraga yaqinglashing\"), (\"w8\", \"Kameradan uzoqlashing\"), (\"w9\", \"To'g'riga qarang\"), (\"w10\", \"Boshingizni tik tuting\"), (\"w11\", \"Yuzingiz belgilangan maydon ichida bo'lishi kerak\"), (\"w12\", \"Yuz mavjud emas\"), (\"w13\", \"Rasmga olinmoqda\"), (\"w14\", \"Rasmga olinmoqda\nIltimos, %s soniya kuting\"), (\"w15\", \"Orqaga\"), (\"w16\", \"Ko'zingizni oching\"), (\"w17\", \"Kulmang\"), (\"w18\", \"Boshingizni biroz ko'taring\"), (\"w19\", \"Boshingizni biroz tushiring\"), (\"w20\", \"Boshingizni biroz o'nga buring\"), (\"w21\", \"Boshingizni biroz chapga buring\"), (\"w22\", \"Boshingizni to'g'ri ushlang\"), (\"w23\", \"Tasvirda 1 tadan ko'p yuz topildi\")]"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/Translation.swift",
+      "kind": "Dictionary",
+      "offset": 1106,
+      "length": 1429,
+      "value": "[(\"w1\", \"Интернетга уланмагансиз\"), (\"w2\", \"Серверга боғланиб бўлмади\"), (\"w3\", \"Тармоққа уланиб бўлмади\"), (\"w4\", \"Текширилмоқда\nИлтимос кутинг...\"), (\"w5\", \"Серверда хатолик юз берди\"), (\"w6\", \"Юзлар 1 тадан кўп\"), (\"w7\", \"Камерага яқинглашинг\"), (\"w8\", \"Камерадан узоқлашинг\"), (\"w9\", \"Тўғрига қаранг\"), (\"w10\", \"Бошингизни тик тутинг\"), (\"w11\", \"Юзингиз белгиланган майдон ичида бўлиши керак\"), (\"w12\", \"Юз мавжуд эмас\"), (\"w13\", \"Расмга олинмоқда\"), (\"w14\", \"Расмга олинмоқда\nИлтимос, %s сония кутинг\"), (\"w15\", \"Орқага\"), (\"w16\", \"Кўзингизни очинг\"), (\"w17\", \"Кулманг\"), (\"w18\", \"Бошингизни бироз кўтаринг\"), (\"w19\", \"Бошингизни бироз туширинг\"), (\"w20\", \"Бошингизни бироз ўнга буринг\"), (\"w21\", \"Бошингизни бироз чапга буринг\"), (\"w22\", \"Бошингизни тўғри ушланг\"), (\"w23\", \"Тасвирда 1 тадан кўп юз топилди\")]"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/Translation.swift",
+      "kind": "Dictionary",
+      "offset": 2568,
+      "length": 1575,
+      "value": "[(\"w1\", \"Вы не подключены к интернету\"), (\"w2\", \"Не удалось подключиться к серверу\"), (\"w3\", \"Не удалось подключиться к сети\"), (\"w4\", \"Идет проверка\nПожалуйста, подождите...\"), (\"w5\", \"На сервере произошла ошибка\"), (\"w6\", \"Лиц больше, чем одно\"), (\"w7\", \"Подойдите ближе к камере\"), (\"w8\", \"Отойдите от камеры\"), (\"w9\", \"Смотрите прямо\"), (\"w10\", \"Держите голову прямо\"), (\"w11\", \"Ваше лицо должно находиться в указанной области\"), (\"w12\", \"Лицо не обнаружено\"), (\"w13\", \"Идет фотографирование\"), (\"w14\", \"Идет фотографирование\nПожалуйста, подождите %s секунд\"), (\"w15\", \"Назад\"), (\"w16\", \"Пожалуйста откройте глаза\"), (\"w17\", \"Не смейтесь\"), (\"w18\", \"Немного поднимите голову вверх\"), (\"w19\", \"Немного опустите голову вниз\"), (\"w20\", \"Слегка поверните голову вправо\"), (\"w21\", \"Слегка поверните голову влево\"), (\"w22\", \"Держите голову прямо\"), (\"w23\", \"На изображении найдено более 1-го лица\")]"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/Translation.swift",
+      "kind": "Dictionary",
+      "offset": 4176,
+      "length": 1032,
+      "value": "[(\"w1\", \"You are not connected to the Internet\"), (\"w2\", \"Could not connect to the server\"), (\"w3\", \"Could not connect to the network\"), (\"w4\", \"Checking\nPlease wait...\"), (\"w5\", \"An error occurred on the server\"), (\"w6\", \"More than one face\"), (\"w7\", \"Get closer to the camera\"), (\"w8\", \"Move away from the camera\"), (\"w9\", \"Look straight\"), (\"w10\", \"Keep your head straight\"), (\"w11\", \"Your face should be within the designated area\"), (\"w12\", \"No face detected\"), (\"w13\", \"Taking a picture\"), (\"w14\", \"Taking a picture\nPlease wait for %s seconds\"), (\"w15\", \"Back\"), (\"w16\", \"Please open your eyes\"), (\"w17\", \"Don't laugh\"), (\"w18\", \"Lift your head up a little\"), (\"w19\", \"Lower your head down a little\"), (\"w20\", \"Turn your head slightly to the right\"), (\"w21\", \"Turn your head slightly to the left\"), (\"w22\", \"Keep your head straight\"), (\"w23\", \"More than 1 person found in image\")]"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/YuzID.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1882,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
