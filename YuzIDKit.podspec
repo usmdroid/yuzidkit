@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'YuzIDKit'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'YuzID native iOS face liveness detection (Vision + ML Kit).'
   s.homepage         = 'https://github.com/usmdroid/yuzidkit'
   s.license          = { :type => 'Apache-2.0', :file => 'LICENSE' }
