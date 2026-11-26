@@ -1008,211 +1008,253 @@
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1383,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1277,
+      "offset": 1416,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1415,
+      "offset": 1554,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1828,
+      "offset": 1967,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1873,
+      "offset": 2012,
       "length": 2,
       "value": "38"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1878,
+      "offset": 2017,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1890,
+      "offset": 2029,
       "length": 2,
       "value": "59"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1895,
+      "offset": 2034,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1906,
+      "offset": 2045,
       "length": 3,
       "value": "166"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1912,
+      "offset": 2051,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1924,
+      "offset": 2063,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1966,
+      "offset": 2105,
       "length": 6,
       "value": "0.2745"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1981,
+      "offset": 2120,
       "length": 6,
       "value": "0.4863"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1995,
+      "offset": 2134,
       "length": 6,
       "value": "0.1412"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2010,
+      "offset": 2149,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2053,
+      "offset": 2192,
       "length": 6,
       "value": "0.9255"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2068,
+      "offset": 2207,
       "length": 6,
       "value": "0.2353"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2082,
+      "offset": 2221,
       "length": 6,
       "value": "0.1020"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2097,
+      "offset": 2236,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 21753,
-      "length": 4,
-      "value": "0.30"
+      "kind": "BooleanLiteral",
+      "offset": 14149,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 21797,
+      "offset": 23513,
       "length": 4,
-      "value": "0.72"
+      "value": "0.45"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 23557,
+      "length": 4,
+      "value": "0.65"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21922,
+      "offset": 23682,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21960,
+      "offset": 23720,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21997,
+      "offset": 23757,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 22037,
-      "length": 3,
-      "value": "0.6"
+      "offset": 23797,
+      "length": 4,
+      "value": "0.75"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23895,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23938,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23980,
+      "length": 1,
+      "value": "7"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 22076,
+      "offset": 24086,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 24125,
       "length": 4,
       "value": "0.30"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 22221,
+      "offset": 24270,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22260,
+      "offset": 24309,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 22397,
+      "offset": 24446,
       "length": 5,
       "value": "0.015"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 22517,
+      "offset": 24566,
       "length": 3,
       "value": "1.5"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/FaceDetectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 22636,
+      "offset": 24685,
       "length": 3,
       "value": "0.5"
     },
