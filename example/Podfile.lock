@@ -40,11 +40,11 @@ PODS:
   - nanopb/decode (3.30910.0)
   - nanopb/encode (3.30910.0)
   - PromisesObjC (2.4.1)
-  - YuzIDKit (1.0.0):
+  - YuzIDKit (1.0.2):
     - MLKitFaceDetection (~> 8.0.0)
 
 DEPENDENCIES:
-  - YuzIDKit (from `https://github.com/usmdroid/yuzidkit.git`, tag `1.0.0`)
+  - YuzIDKit (from `https://github.com/usmdroid/yuzidkit.git`, tag `1.0.2`)
 
 SPEC REPOS:
   trunk:
@@ -62,12 +62,12 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   YuzIDKit:
     :git: https://github.com/usmdroid/yuzidkit.git
-    :tag: 1.0.0
+    :tag: 1.0.2
 
 CHECKOUT OPTIONS:
   YuzIDKit:
     :git: https://github.com/usmdroid/yuzidkit.git
-    :tag: 1.0.0
+    :tag: 1.0.2
 
 SPEC CHECKSUMS:
   GoogleDataTransport: a24e58982ab3ba2f64d79613e027fe7f57e88539
@@ -80,8 +80,8 @@ SPEC CHECKSUMS:
   MLKitVision: 39a5a812db83c4a0794445088e567f3631c11961
   nanopb: fad817b59e0457d11a5dfbde799381cd727c1275
   PromisesObjC: 752c3227f599e3467650e47ea36f433eeb10c273
-  YuzIDKit: bff0d5f29af1ad9d8f5e0b3c9eec7511ce8c2115
+  YuzIDKit: 130a1acaaf76f1b828ec08b0545ae6d23b2df9ff
 
-PODFILE CHECKSUM: 9090c9c3c2c8d66358bff8e16a6d68ef654a94ab
+PODFILE CHECKSUM: 850a207a186b4529cef399ccaeb66d87c9754e7d
 
 COCOAPODS: 1.16.2
