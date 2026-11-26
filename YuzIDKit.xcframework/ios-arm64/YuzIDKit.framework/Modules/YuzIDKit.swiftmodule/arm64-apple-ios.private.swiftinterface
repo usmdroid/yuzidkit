@@ -17,6 +17,7 @@ public enum YuzIDLanguage {
   case uzCyrillic
   case ru
   case en
+  case karakalpak
   public init(code: Swift::String)
   public static func == (a: YuzIDKit::YuzIDLanguage, b: YuzIDKit::YuzIDLanguage) -> Swift::Bool
   public func hash(into hasher: inout Swift::Hasher)

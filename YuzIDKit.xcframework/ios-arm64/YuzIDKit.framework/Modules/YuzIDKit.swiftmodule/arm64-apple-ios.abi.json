@@ -207,6 +207,43 @@
             "moduleName": "YuzIDKit"
           },
           {
+            "kind": "Var",
+            "name": "karakalpak",
+            "printedName": "karakalpak",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YuzIDKit.YuzIDLanguage.Type) -> YuzIDKit.YuzIDLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YuzIDLanguage",
+                    "printedName": "YuzIDKit.YuzIDLanguage",
+                    "usr": "s:8YuzIDKit0A10IDLanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YuzIDKit.YuzIDLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YuzIDLanguage",
+                        "printedName": "YuzIDKit.YuzIDLanguage",
+                        "usr": "s:8YuzIDKit0A10IDLanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8YuzIDKit0A10IDLanguageO10karakalpakyA2CmF",
+            "mangledName": "$s8YuzIDKit0A10IDLanguageO10karakalpakyA2CmF",
+            "moduleName": "YuzIDKit"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(code:)",
@@ -1282,14 +1319,21 @@
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/Translation.swift",
       "kind": "Dictionary",
-      "offset": 4176,
+      "offset": 4184,
+      "length": 1049,
+      "value": "[(\"w1\", \"Internet baylanısı joq\"), (\"w2\", \"Serverge jalanıwǵa bolmadı\"), (\"w3\", \"Tarmaqqa jalanıwǵa bolmadı\"), (\"w4\", \"Tekseriliwde\nÓtinish, kútiń...\"), (\"w5\", \"Serverde qátelik júz berdi\"), (\"w6\", \"Júzler 1 den kóp\"), (\"w7\", \"Kameraǵa jaqınlasıń\"), (\"w8\", \"Kameradan alıslasıń\"), (\"w9\", \"Tuwrıǵa qarań\"), (\"w10\", \"Basıńızdı tik tutıń\"), (\"w11\", \"Júzińiz belgilengen maydan ishinde bolıwı kerek\"), (\"w12\", \"Júz tabılmadı\"), (\"w13\", \"Súwretke alınıwda\"), (\"w14\", \"Súwretke alınıwda\nÓtinish, %s sekund kútiń\"), (\"w15\", \"Artqa\"), (\"w16\", \"Kózińizdi ashıń\"), (\"w17\", \"Kúlmeń\"), (\"w18\", \"Basıńızdı biraz kóteriń\"), (\"w19\", \"Basıńızdı biraz túsiriń\"), (\"w20\", \"Basıńızdı biraz oń tárepke buriń\"), (\"w21\", \"Basıńızdı biraz sol tárepke buriń\"), (\"w22\", \"Basıńızdı tuwrı tutıń\"), (\"w23\", \"Súwrette 1 den kóp júz tabıldı\")]"
+    },
+    {
+      "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/Translation.swift",
+      "kind": "Dictionary",
+      "offset": 5266,
       "length": 1032,
       "value": "[(\"w1\", \"You are not connected to the Internet\"), (\"w2\", \"Could not connect to the server\"), (\"w3\", \"Could not connect to the network\"), (\"w4\", \"Checking\nPlease wait...\"), (\"w5\", \"An error occurred on the server\"), (\"w6\", \"More than one face\"), (\"w7\", \"Get closer to the camera\"), (\"w8\", \"Move away from the camera\"), (\"w9\", \"Look straight\"), (\"w10\", \"Keep your head straight\"), (\"w11\", \"Your face should be within the designated area\"), (\"w12\", \"No face detected\"), (\"w13\", \"Taking a picture\"), (\"w14\", \"Taking a picture\nPlease wait for %s seconds\"), (\"w15\", \"Back\"), (\"w16\", \"Please open your eyes\"), (\"w17\", \"Don't laugh\"), (\"w18\", \"Lift your head up a little\"), (\"w19\", \"Lower your head down a little\"), (\"w20\", \"Turn your head slightly to the right\"), (\"w21\", \"Turn your head slightly to the left\"), (\"w22\", \"Keep your head straight\"), (\"w23\", \"More than 1 person found in image\")]"
     },
     {
       "filePath": "\/Users\/usmanov\/StudioProjects\/yuz_id\/yuz_id_plugin_ios\/Sources\/YuzIDKit\/YuzID.swift",
       "kind": "BooleanLiteral",
-      "offset": 1882,
+      "offset": 1999,
       "length": 5,
       "value": "false"
     }

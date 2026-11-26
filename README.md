@@ -12,7 +12,7 @@ Prebuilt XCFramework for on-device face capture: the user is guided to position 
 platform :ios, '15.5'
 use_frameworks! :linkage => :static   # required by ML Kit
 
-pod 'YuzIDKit', :git => 'https://github.com/usmdroid/yuzidkit.git', :tag => '1.0.0'
+pod 'YuzIDKit', :git => 'https://github.com/usmdroid/yuzidkit.git', :tag => '1.0.3'
 ```
 ML Kit is pulled in automatically; do not add it yourself.
 
@@ -28,7 +28,7 @@ YuzID.present(language: .uz) { result in
     }
 }
 ```
-Languages: `.uz`, `.uzCyrillic`, `.ru`, `.en`. Legacy codes are supported via `YuzIDLanguage(code: "eng")`.
+Languages: `.uz`, `.uzCyrillic`, `.ru`, `.en`, `.karakalpak`. Legacy codes are supported via `YuzIDLanguage(code: "eng")`.
 
 Optional: an image named `large_logo` in the app bundle is shown under the camera circle.
 

@@ -5,7 +5,7 @@ target 'Example' do
   # ML Kit is a static framework, so static linkage is required.
   use_frameworks! :linkage => :static
 
-  pod 'YuzIDKit', :git => 'https://github.com/usmdroid/yuzidkit.git', :tag => '1.0.2'
+  pod 'YuzIDKit', :git => 'https://github.com/usmdroid/yuzidkit.git', :tag => '1.0.3'
 end
 
 post_install do |installer|
